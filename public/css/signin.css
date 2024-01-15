@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.producer_inf {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+
+.producer_inf h3 {
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 10px;
+}
+
+.producer_inf h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.producer_inf p {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+
+.login-label {
+  text-align: center;
+  padding: 5px;
+  margin-top: 0px;
+  /* margin-top: 40px; */
+}
+
+.login-label h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Login Form */
+.login-form {
+  max-width: 400px;
+  margin: 50px auto 0;
+  margin-top: 100px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  padding-top: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #e5e5e5;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-form input[type="email"],
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.checkbox-field input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.checkbox-field label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.register {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

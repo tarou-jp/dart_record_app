@@ -1,0 +1,286 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.producer_inf {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+
+.producer_inf h3 {
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 10px;
+}
+
+.producer_inf h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.producer_inf p {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.login-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.dropdown select {
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown select:focus {
+  outline: none;
+}
+
+.dropdown::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  border: 6px solid transparent;
+  border-top-color: #333;
+}
+
+.dropdown::after {
+  content: "";
+  position: absolute;
+  right: 6px;
+  top: 18px;
+  border: 4px solid transparent;
+  border-top-color: #fff;
+}
+
+.dropdown select option {
+  background-color: #333;
+  color: #fff;
+}
+
+.dropdown select option:checked {
+  background-color: #fff;
+  color: #333;
+}
+
+.login {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto 0;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  padding-top: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #e5e5e5;
+}
+
+.login-label {
+  text-align: center;
+  padding: 5px;
+  margin-top: 0px;
+
+}
+
+.login-label h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.login-form input[type="number"],
+.login-form input[type="password"] {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.rating-button {
+  margin: 0px 5px;
+  padding: 10px;
+  ;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-button {
+
+  margin: 0px 5px;
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.record-button {
+
+  margin: 0px 5px;
+  padding: 10px;
+  background-color: #00DD00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.page_access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.page_access h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.page_access p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.page_access button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 100px;
+
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+.sql-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}

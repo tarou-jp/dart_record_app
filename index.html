@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dart_Web(糸久秀喜)</title>
+  <link rel="stylesheet" href="./public/css/index.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="producer_inf">
+      <h3><a href="http://turkey.slis.tsukuba.ac.jp/~s2210573/index.html">ダーツ記録管理サイト</a></h3>
+      <p>製作者: 糸久秀喜(202210573)</p>
+    </div>
+
+  </header>
+
+  <section class="login">
+    <div class="login-form">
+      <div class="login-label">
+        <h1>ログイン</h1>
+      </div>
+      <form method="post" action="http://turkey.slis.tsukuba.ac.jp/~s2210573/rate.php">
+        <div class="input-field">
+          <label for="gakuseki">学籍番号:</label>
+          <input type="number" name="gakuseki" value="0" required>
+        </div>
+        <div class="input-field">
+          <label for="password">パスワード:</label>
+          <input type="password" id="password" name="pass" value="pass" required>
+        </div>
+        <div class="login-buttons">
+          <input type="submit" value="ログイン" class="rating-button">
+        </div>
+      </form>
+    </div>
+    <div class="register">
+      <p>アカウントをお持ちでない方は<a href="http://turkey.slis.tsukuba.ac.jp/~s2210573/signin.php">新規登録</a>してください。</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="copyright">
+        © 2023 Your Website. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
